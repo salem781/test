@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'poppins', sans-serif;
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}header{
+    background-image: linear-gradient(to right, rgb(51, 90, 153) , rgb(59, 96, 154));
+    width: 100%;
+    position: fixed;
+    z-index: 999; 
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin-top: -20px;
+}
+
+.logo{
+    text-decoration: none; 
+    color: rgb(68, 68, 64);   
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.navigation a{
+    text-decoration: none; 
+    color: rgb(48, 48, 45) ;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #00eaff;
+}
+
+section{
+    padding: 1000px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    background: url(new.jpg);
+    background-size: cover;
+    background-position:left
+    
+}
+.main h2{
+    display: inline-block;
+    color: aliceblue;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.main h2 span{
+    color: rgb(240 242 245);
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3{
+    color: aliceblue;
+    font-size: 1.5em;
+    font-weight:700;  
+    letter-spacing: 1px;  
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn{
+   color: aliceblue;
+   background-image: linear-gradient(to right, rgb(230, 175, 66) , rgb(0, 179, 255));
+   text-decoration: none;
+   font-size: 1.1em;
+   font-weight: 600;
+   display: inline-block;
+   padding: 0.9375em 2.1875em;
+   align-items: center;
+   letter-spacing: 1px;
+   border-radius: 20px 20px 20px 20px;
+   transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: rgb(74, 177, 246);
+    transform: scale(1.1);
+}
+.social-icons a{
+    color :aliceblue;
+    font-size: 1.7em;
+    padding-right: 20px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+.title{
+   display: flex;
+   justify-content: center;
+   color: black;
+   font-size: 2.2em;
+   font-weight: 800 ;
+   position: relative;
+   bottom:-40px;
+
+}
+
+.info {
+    padding: 75px;
+    margin: 40px;
+    display: grid
+;
+    margin-right: 10px;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.info{
+    background-color: rgb(171, 175, 179);
+     
+}
+.info p {
+    text-align: center;
+    
+}
+.search{
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.search_input{
+    padding: 6px;
+    color: black;
+    width: 150px;
+    font-size: 16px;
+    border: 1px #f8f4f4ee;
+    margin-top: 5px;
+}
+.button_search{
+    padding: 5px;
+    background-color: rgb(17, 76, 204);
+}
+.nav{
+    width: 100%;
+    height: 45px;
+    background-color: #7d4f4f;
+    border-bottom: 3px solid #100808;
+}
+.social ul{
+    list-style: none;
+    margin-left: 20px;
+}
+.social ul li{
+    float: left;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+.social  li a{
+    color: #785b3fee;
+}
+.social ul li a:hover{
+    color:#f0edebee
+}
+.social li{
+    list-style: none;
+}
+.social li{
+    float: right;
+    padding: 5px 3px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.social{
+    background-color: rgb(40, 96, 152);
+}
+.saywellcom h2{
+    color: aliceblue;
+}
